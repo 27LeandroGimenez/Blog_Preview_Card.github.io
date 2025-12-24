@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree";
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    background-color: yellow;   
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 10px 10px black;
+    border: 1px solid black;
+    max-width: 375px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.image {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.category {
+    font-weight: bold;
+    background-color: yellow;
+    padding: .5rem;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 1rem;
+}
+
+.date {
+    font-weight: 700;
+    color: gray;
+    margin-top: 1rem;
+    font-style: italic;
+}
+
+.title {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.description {
+    margin-top: 1rem;
+    color: gray;
+}
+
+.publisher {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.publisher p {
+    margin-left: 1rem;
+    font-weight: bold;
+}
